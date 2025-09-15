@@ -2,10 +2,7 @@
   "name": "ai-chatbot",
   "version": "3.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbo",
-    "build": "build": "next build",
-    "start": "next start",
+  "build": "next build"
     "lint": "biome lint --write --unsafe",
     "lint:fix": "biome lint --write --unsafe && biome format --write",
     "format": "biome format --write",
